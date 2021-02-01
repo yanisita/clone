@@ -1,7 +1,7 @@
 
 body {
   background-repeat: no-repeat;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -39,18 +39,7 @@ body {
 .nav-bar nav a:hover {
   text-decoration: underline;
 }
-.burger-button {
-  width: 40px;
-  height: 40px;
-  display: none;
-  line-height: 40px;
-  text-align: center;
-  position: fixed;
-  z-index: 4;
-  left: 5px;
-  top: 5px;
-  color:#5F6368;
-}
+
 .google-logo{
   display: block;
   text-align: center;
@@ -69,7 +58,6 @@ main {
 }
 
 .main-logo {
-  width: 35%;
   margin: 0 auto;
   margin-bottom: 2%;
 }
@@ -142,7 +130,6 @@ button {
   height: 40px;
   padding: 5px;
   font-size: 16px;
-
 }
 
 
@@ -172,7 +159,7 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-
+  
   footer {
     display: block;
    
