@@ -85,7 +85,7 @@ main .main-input {
     margin-bottom: 5%;
 }
 main .main-input-container {
-    width: 525px;
+    width: 55%;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
@@ -163,11 +163,23 @@ footer {
     color:#5F6368 ;
   }
   .main-logo img {
-    
     width: 45%;
   }
-  button, p {
+  main .main-input input {
+    width: 80%;
+    
+}
+main .main-input-container {
+  width: 115%;
+  
+  margin-left: -25px;
+}
+  p {
     text-align: center;
+    margin-top: 10%;
+  }
+  button {
+    display: none;
   }
   footer {
     display: block;
