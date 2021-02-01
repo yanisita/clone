@@ -39,6 +39,18 @@ body {
 .nav-bar nav a:hover {
   text-decoration: underline;
 }
+.burger-button {
+  width: 40px;
+  height: 40px;
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color:#5F6368;
+}
 .google-logo{
   display: block;
   text-align: center;
@@ -52,24 +64,24 @@ a:hover {
   text-decoration: underline;
 }
 main {
-  margin-top: 150px;
+  margin-top: 15%;
   text-align: center;
 }
 
 .main-logo {
-  width: 530px;
+  width: 35%;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 2%;
 }
 
 .main .main-input {
-  width: 530px;
+  width: 75%;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 15%;
 
 }
 main .main-input-container {
-  width: 550px;
+  width: 80%;
   border-radius: 100px;
   border: 1px solid #dfe1e5;
   display: flex;
@@ -159,6 +171,22 @@ footer {
   padding: 10px;
 }
 
+@media screen and (max-width: 375px) {
 
+  footer {
+    display: block;
+   
+  }
+  .footer-left{
+    float:none;
+    display: block;
+  }
+  .footer-right{
+    float:none;
+   
+    display: block;
+  }
+  
+}
 
 
