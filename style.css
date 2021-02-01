@@ -80,9 +80,9 @@ main .main-input-container {
 
 }
 main .main-input {
-    width: 530px;
+    width: 75%;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 5%;
 }
 main .main-input-container {
     width: 525px;
@@ -159,7 +159,16 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-  
+  .nav-bar ul li a {
+    color:#5F6368 ;
+  }
+  .main-logo img {
+    
+    width: 45%;
+  }
+  button, p {
+    text-align: center;
+  }
   footer {
     display: block;
    
